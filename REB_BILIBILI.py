@@ -68,7 +68,6 @@ class GIL_REBOT:
         """
         self.result["mid_info"] = {}
         headers = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
-                    #"Cookie":"pgv_pvi=8956628992; fts=1486903073; rpdid=kwqkxmwooxdopqxlwxppw; DedeUserID=7520203; DedeUserID__ckMd5=fab06999eea41f92; SESSDATA=3e42444f%2C1489498650%2Cc622d546; LIVE_BUVID=74a8d8bfbea2348555e23cb815a5ba60; LIVE_BUVID__ckMd5=febc26e2f55d36e4; sid=80ukvlm0; buvid3=5E887CE3-15E6-487C-B3F5-7553A5C9507C9225infoc; purl_token=bilibili_1487759058; pgv_si=s8702426112; LIVE_LOGIN_DATA=49aa4726282be17ddefefe5e2f815169e4324053; LIVE_LOGIN_DATA__ckMd5=f1c1dd72f4fca28b; CNZZDATA2724999=cnzz_eid%3D124165164-1486906850-http%253A%252F%252Fwww.bilibili.com%252F%26ntime%3D1487768582; _cnt_dyn=null; _cnt_pm=0; _cnt_notify=11; uTZ=-480; _dfcaptcha=51fe87b4a13645c965db0eda88bce93c",
                     "Referer":"http://space.bilibili.com/388434/"
        }
         data = {"mid":"%s"%mid, "_":"1487769159876"}
